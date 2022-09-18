@@ -1,0 +1,76 @@
+/* main */
+.main {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.myprofill__thumbnail {
+    background: url("https://prodigits.co.uk/thumbs/wallpapers/p2ls/drawings/45/9883658412625752.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    transform: scaleX(-1);
+}
+
+.myprofill__mutli__thumbnail {
+    border: 1px solid #E2E2E2;
+    background-color: #F5F5F5;
+    color: var(--darkgrey);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__myprofilbox__multi .main__user-component {
+    margin-top: 20px;
+}
+
+.main__myprofilbox__multi .main__user-component__statusset-username {
+    font-size: 15px;
+}
+
+.widthforplus {
+    display: flex;
+    align-items: center;
+}
+
+.plus {
+    font-size: 15px;
+}
+
+.plus {
+    font-size: 11px;
+    color: var(--darkgrey);
+
+}
+
+.main__updated-list {
+    display: flex;
+}
+
+.main__updated-list .main__user-component {
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.main__updated-list .main__user-component__statusset {
+    margin-left: 0;
+    height: 25px;
+}
+
+.main__updated-list .main__user-component__statusset-username {
+    width: 50px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

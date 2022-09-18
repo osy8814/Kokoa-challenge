@@ -1,0 +1,36 @@
+.bedge {
+    background: linear-gradient(150deg, white, 35%, #0191F5);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.main__user-component__thumbnail {
+    position: relative;
+}
+
+.newsomthing {
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+
+}
+
+.nav li:nth-child(2) {
+    position: relative;
+}
+
+.newmessage {
+    width: 20px;
+    height: 20px;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.newmessage span {
+    font-size: 13px;
+}

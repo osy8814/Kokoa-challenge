@@ -1,0 +1,22 @@
+.status-bar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px 2px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: inherit;
+    z-index: 10;
+}
+
+.status-bar__left {
+    width: 50%;
+    text-align: left;
+}
+
+.status-bar__right {
+    width: 50%;
+    text-align: right;
+
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Simpson-friends</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__left">
+            <span>
+                Mobile 2:21
+            </span>
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="status-bar__right">
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-battery-half"></i>
+            <span>50%</span>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="header__section">
+            <span>Friend</span>
+        </div>
+        <div class="header__iconset">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-user-plus"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-cog"></i>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="header__ad"></div>
+
+        <div class="main">
+            <!-- 내프로필 -->
+            <div class="main_myprofilbox">
+                <div class="main__user-component">
+                    <div class="main__user-component__thumbnail myprofill__thumbnail"></div>
+                    <div class="main__user-component__statusset">
+                        <h2 class="main__user-component__statusset-username">I MY ME</h2>
+                        <h2 class="main__user-component__statusset-usermessage">Mmm...donuts!</h2>
+                    </div>
+                </div>
+                <div class="main__myprofilbox__multi main__section">
+                    <div class="main__myprofilbox__multi-title-line main__section__title-line">
+                        <h3 class="main__myprofilbox__multi-title">내 멀티 프로필</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="main__user-component">
+                        <div class="main__user-component__thumbnail myprofill__mutli__thumbnail">
+                            <span>+</span>
+                        </div>
+                        <div class="main__user-component__statusset">
+                            <h2 class="main__user-component__statusset-username">친구별로 다른 프로필을 설정해보세요!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 생일인친구 -->
+            <div class="main__friends-birthday main__section">
+                <div class="main__friends-birthday-title-line main__section__title-line">
+                    <h3 class="main__friends-birthday-title">생일인 친구</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="main__user-component plusset">
+                    <div class="thumbnail-and-status">
+                        <div class="main__user-component__thumbnail main__friends-birthday__thumbnail">
+                            <img
+                                src="http://image.kyobobook.co.kr/newimages/giftshop_new/goods/400/1154/S1648013296312.jpg">
+                        </div>
+                        <div class="main__user-component__statusset">
+                            <h2 class="main__user-component__statusset-username ">
+                                친구의 생일을 확인해보세요!
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="widthforplus">
+                        <span class="plus">1 <i class="fas fa-plus"></i></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 업데이트한친구 -->
+            <div class="main__updated main__section">
+                <div class="main__updated-title-line main__section__title-line">
+                    <h3 class="main__updated-title">업데이트한 친구 3</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <ul class="main__updated-list">
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__updated__thumbnail">
+                                <div class="newsomthing bedge"></div>
+                                <img src="https://pbs.twimg.com/media/ExdyQQEVIAIF3ms.jpg:small">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <p class="main__user-component__statusset-username">
+                                    Marge Simpson
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__updated__thumbnail">
+                                <div class="newsomthing bedge"></div>
+                                <img
+                                    src="https://scenestr.com.au/media/k2/items/cache/9db87401983e67ea975abd54ce2a4e78_XL.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <p class="main__user-component__statusset-username">
+                                    Moe Szyslak
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__updated__thumbnail">
+                                <div class="newsomthing bedge"></div>
+                                <img src="http://www.simpsonsforever.com/images/episodes/characters/49.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <p class="main__user-component__statusset-username">
+                                    Jasper Beardly
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 즐겨찾기한친구 -->
+            <div class="main__favorites main__section">
+                <div class="main__favorites-title-line main__section__title-line">
+                    <h3 class="main__favorites-title">즐겨찾기</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="main__user-component">
+                    <div class="main__user-component__thumbnail main__favorites__thumbnail">
+                        <img src="https://pbs.twimg.com/media/ExdyQQEVIAIF3ms.jpg:small">
+                    </div>
+                    <div class="main__user-component__statusset">
+                        <h2 class="main__user-component__statusset-username">
+                            Marge Simpson
+                        </h2>
+                        <h2 class="main__user-component__statusset-usermessage">
+                            Mmm...
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 채널 -->
+            <div class="main__chennel main__section">
+                <div class="main__chennel-title-line main__section__title-line">
+                    <h3 class="main__chennel-title">채널</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="main__user-component plusset">
+                    <div class="thumbnail-and-status">
+                        <div class="main__user-component__thumbnail main__chennel__thumbnail">
+                            <img src="https://i.ytimg.com/vi/8vOzzN2xTuM/mqdefault.jpg">
+                        </div>
+                        <div class="main__user-component__statusset widthforplus">
+                            <h2 class="main__user-component__statusset-username">
+                                채널
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="widthforplus">
+                        <span class="plus">6 <i class="fas fa-plus"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 친구리스트 -->
+            <div class="main__friends main__section">
+                <div class="main__friends-title-line main__section__title-line">
+                    <h3 class="main__friends-title">친구 7</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <ul class="main__friends-list">
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img src="https://pbs.twimg.com/media/ExdyQQEVIAIF3ms.jpg:small">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Marge Simpson
+                                </h2>
+                                <h2 class="main__user-component__statusset-usermessage">
+                                    Mmm...
+                                </h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img
+                                    src="http://image.kyobobook.co.kr/newimages/giftshop_new/goods/400/1311/S1648013304173.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Bart Simpson
+                                </h2>
+                                <h2 class="main__user-component__statusset-usermessage">
+                                    Ay Caramba!
+                                </h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img
+                                    src="http://image.kyobobook.co.kr/newimages/giftshop_new/goods/400/1398/S1648013300598.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Lisa Simpson
+                                </h2>
+                                <h2 class="main__user-component__statusset-usermessage">
+                                    you wanted me to feel better about myself
+                                </h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img
+                                    src="https://scenestr.com.au/media/k2/items/cache/9db87401983e67ea975abd54ce2a4e78_XL.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Moe Szyslak
+                                </h2>
+                                <h2 class="main__user-component__statusset-usermessage">
+                                    Moe's Tavern, Moe's speaking.
+                                </h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img src="https://elsitioderuife.files.wordpress.com/2012/10/lenny-simpsons.jpg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Lenford Leonard
+                                </h2>
+                                <h2 class="main__user-component__statusset-usermessage">
+                                    Ah! More pain for Lenny!
+                                </h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img
+                                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-simpsons-carl-1600986990.png?crop=0.597xw:1.00xh;0.381xw,0&resize=480:*">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Carlton Carlson
+                                </h2>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main__user-component">
+                            <div class="main__user-component__thumbnail main__friendslist__thumbnail">
+                                <img
+                                    src="http://2.bp.blogspot.com/-3S77I1xNtks/VRLjypJ6_II/AAAAAAAADm0/eSYkNzrwYLo/s1600/Wiggum_Donut_Crop.jpeg">
+                            </div>
+                            <div class="main__user-component__statusset">
+                                <h2 class="main__user-component__statusset-username">
+                                    Clancy Wiggum
+                                </h2>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><i class="fas fa-user"></i></li>
+            <li>
+                <i class="far fa-comment"></i>
+                <div class="newmessage bedge">
+                    <span>3</span>
+                </div>
+            </li>
+            <li><i class="far fa-eye"></i></li>
+            <li><i class="fas fa-box"></i></li>
+            <li><i class="fas fa-ellipsis-h"></i></li>
+        </ul>
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Simpson-log-In</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__left">
+            <span>
+                Mobile 2:21
+            </span>
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="status-bar__right">
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-battery-half"></i>
+            <span>50%</span>
+        </div>
+    </div>
+    <div class="container top">
+        <h1 class="container-title">Simpson Talk</h1>
+        <form id="easy-to-login" action="friends.html" method="get">
+            <p>
+                계정과 비밀번호 입력없이<br>
+                Simpson Talk으로 로그인 해보세요.
+            </p>
+            <button><i class="fas fa-comment"></i> Simpson Talk으로 로그인</button>
+        </form>
+    </div>
+    <div class="container botton">
+        <form id="login-by-info" action="friends.html" method="get">
+            <p>계정정보 입력으로도 로그인 할 수 있어요.</p>
+            <input type="text" name="user_id" placeholder="카카오메일 아이디, 이메일, 전화번호">
+            <input type="password" name="user_pass" placeholder="비밀번호">
+            <label class="login-by-info__checkboxSET"><input type="checkbox"
+                    class="login-by-info__checkboxSET-checkbox"> 로그인상태 유지
+            </label>
+            <button>로그인</button>
+
+        </form>
+        <div class="button-link-box">
+            <ul class="button-link-box_list">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">Simpson계정</a></li>
+                <li><a href="#">비밀번호 찾기</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
