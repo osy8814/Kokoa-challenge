@@ -1,0 +1,133 @@
+.message-component {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+}
+
+.message-component__thumbnail {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 38%;
+}
+
+.message-component__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.message-component__textbox {
+    margin-left: 10px;
+}
+
+.message-component__textbox__username {
+    font-size: 15px;
+}
+
+.message-component__textbox__messagebox {
+    display: flex;
+}
+
+.message-component__textbox__messagebox-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    background-color: white;
+}
+
+.message-component__textbox__messagebox-time {
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+.own {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.own .message-component__textbox {
+    margin-right: 10px;
+}
+
+.own .message-component__textbox__messagebox {
+    flex-direction: row-reverse;
+}
+
+.own .message-component__textbox__username {
+    text-align: end;
+}
+
+.own .message-component__textbox__messagebox-message {
+    margin-top: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+}
+
+.own .message-component__textbox__messagebox-time {
+    margin-right: 10px;
+}
+
+.main__user-component__time {
+    padding: 10px;
+    font-size: 11px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    position: relative;
+}
+
+.main__user-component_left {
+    display: flex;
+}
+
+.chats-component {
+    justify-content: space-between
+}
+
+.chatsbox {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#chatsbox-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: inherit;
+    font-family: inherit;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    border: none;
+}
+
+.chatsbox img {
+    width: 40px;
+}
+
+.chatsbox img:first-child {
+    top: 2px;
+    left: 2px;
+    position: absolute;
+}
+
+.chatsbox img:nth-child(3) {
+    top: 2px;
+    right: 50px;
+    position: absolute;
+
+}
+
+.chatsbox img:nth-child(4) {
+    top: 3px;
+    right: 3px;
+    position: absolute;
+
+}

@@ -1,0 +1,18 @@
+#morebody {
+    background: url("https://w0.peakpx.com/wallpaper/841/846/HD-wallpaper-the-simpsons-bart-lisa-brother-sister-cartoon-cute-awesome.jpg");
+    background-size: cover;
+}
+
+.more-container {
+    background: none;
+}
+
+.more-container .top-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-container .top-menu a {
+    width: 80px;
+    margin: 10px 20px;
+}

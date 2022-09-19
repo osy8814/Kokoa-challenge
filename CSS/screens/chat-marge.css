@@ -1,0 +1,25 @@
+#chatbody-marge {
+    background: url("https://w0.peakpx.com/wallpaper/431/249/HD-wallpaper-the-simpson-baby-bart-lisa-pink-simpson-simpsons-the-the-simpsons-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.chat-marge-header {
+    background: inherit;
+    background-position: 0 -140px;
+    background-size: 110%;
+}
+
+.chat-marge-header,
+.chat-marge-header i {
+    color: #0191F5;
+}
+
+.chat-date {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: white;
+}

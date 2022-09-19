@@ -29,8 +29,9 @@
 }
 
 .main__user-component__statusset-username {
+    line-height: 2;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .main__user-component__statusset-usermessage {

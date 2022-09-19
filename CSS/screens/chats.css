@@ -1,0 +1,28 @@
+#chatsbody {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("https://w0.peakpx.com/wallpaper/465/1009/HD-wallpaper-simpson-hole-punch-red-blue-barth-donut-redmi-note-9-pro-hole-punch-punch-hole-redmi-note-9-simpsons-thumbnail.jpg");
+    background-repeat: repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+.chatsheader {
+    background: inherit;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: inherit;
+}
+
+.chats__section {
+    padding-top: 0;
+    margin-top: 0;
+    border: none;
+}
+
+.chats__section .main__user-component__statusset-usermessage {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+.chats__section li:first-child .main__user-component {
+    margin-top: 0;
+}

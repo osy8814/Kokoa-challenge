@@ -1,0 +1,49 @@
+#settingbody {
+    background: url("https://w0.peakpx.com/wallpaper/35/328/HD-wallpaper-simpson-bart-cartoons-lisa-thumbnail.jpg");
+    background-size: 110%;
+}
+
+
+.setting-container {
+    text-shadow: 3px 3px 1px black;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.setting__menu__setbox {
+    font-family: "Simpson";
+    color: var(--yellow);
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
+
+.setting__menu__setbox:first-child {
+    border-top: none;
+
+}
+
+.setting__menu__setbox .setting__menu__setbox-icon {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.setting__menu__setbox .setting__menu__setbox-icon i {
+    font-size: 25px;
+}
+
+.setting__menu__setbox div:nth-child(2) {
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+.setting__menu__setbox__text {
+    margin-left: 20px;
+}
+
+.contop {
+    margin-top: 80px;
+    border: none;
+}

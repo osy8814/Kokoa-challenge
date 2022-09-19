@@ -1,26 +1,51 @@
 /* main */
+#friendsbody {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("https://w0.peakpx.com/wallpaper/27/800/HD-wallpaper-homer-simpson-donut-homero-simpson-simpsons-the-simpsons-thumbnail.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.friendsheader {
+    background: inherit;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
 .main {
     width: 100%;
     margin-top: 18px;
 }
 
+.friends-main .main__user-component__statusset-usermessage,
+.main__section__title-line,
+.plus {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.main .main__user-component__statusset-username {
+    text-shadow: 0px 0px 20px white;
+}
+
 .myprofill__thumbnail {
-    background: url("https://prodigits.co.uk/thumbs/wallpapers/p2ls/drawings/45/9883658412625752.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 60px;
     height: 60px;
     transform: scaleX(-1);
 }
 
 .myprofill__mutli__thumbnail {
-    border: 1px solid #E2E2E2;
+    border: 1px solid var(--darkgrey);
     background-color: #F5F5F5;
     color: var(--darkgrey);
     font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+}
+
+.myprofill__mutli__thumbnail span {
+    position: absolute;
+    top: 10%;
+    left: 27%;
 }
 
 .main__myprofilbox__multi .main__user-component {
@@ -37,13 +62,7 @@
 }
 
 .plus {
-    font-size: 15px;
-}
-
-.plus {
     font-size: 11px;
-    color: var(--darkgrey);
-
 }
 
 .main__updated-list {
@@ -55,7 +74,7 @@
     margin-left: 10px;
 }
 
-.container img {
+.main img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -73,4 +92,37 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.friends-ad {
+    height: 205px;
+}
+
+.friends-ad img {
+    object-position: 100% 47%;
+}
+
+.logintalk {
+    position: absolute;
+    top: 0;
+    z-index: 15;
+    background-color: black;
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    background: url("https://w0.peakpx.com/wallpaper/326/647/HD-wallpaper-the-simpsons-bart-homer-lion-king-note-8.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: 100% 20%;
+    animation: hidescreen 2.5s ease-in-out forwards;
+
+}
+
+@keyframes hidescreen {
+    from {}
+
+    to {
+        visibility: hidden;
+        height: 0vh;
+    }
 }

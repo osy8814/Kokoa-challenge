@@ -1,21 +1,28 @@
 /* friends */
+
 .header {
     font-family: "Simpson";
     display: flex;
-    margin-top: 25px;
-    padding: 30px 20px 20px 20px;
+    margin-top: 0px;
+    padding: 60px 20px 20px 20px;
     box-sizing: border-box;
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: inherit;
+    /* background-size: contain; */
     z-index: 10;
+    color: var(--yellow);
+    text-shadow: -1px -1px 1px black, -2px 2px 1px black;
+}
+
+.header a {
+    color: var(--yellow);
 }
 
 .header__section {
     width: 50%;
     text-align: left;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -32,9 +39,58 @@
 .header__ad {
     margin-top: 0px;
     width: 100%;
-    height: 150px;
-    background: url("http://artinsight.co.kr/n_news/peg/1511/thumb/f96bda90c7b34c98d3c123d63f017df2_nXTCwi5Z5S6dlgbEpUxxeVpzI3X.jpg") no-repeat;
-    background-size: contain;
-    background-position: center;
-    border-radius: 10%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.header__ad img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.header__iconset i:first-child:hover {
+    animation: zoom 1s linear infinite;
+    text-shadow: 0px 0px 1px black;
+}
+
+.header__iconset i:nth-child(2):hover {
+    animation: zoom 1s linear infinite;
+    text-shadow: 0px 0px 1px black;
+}
+
+.header__iconset i:nth-child(3):hover {
+    animation: zoom 1s linear infinite;
+    text-shadow: 0px 0px 1px black;
+}
+
+.header__iconset i:last-child:hover {
+    animation: ratate 1s linear infinite;
+    text-shadow: 0px 0px 1px black;
+}
+
+@keyframes ratate {
+    form {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+
+    }
+
+    100% {
+        transform: none;
+    }
 }

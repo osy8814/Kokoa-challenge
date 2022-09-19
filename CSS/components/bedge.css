@@ -27,10 +27,28 @@
     right: -3px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: white;
+    font-size: 13px;
+    font-weight: 600;
+    animation: badgeAni 2s ease-in-out infinite;
 }
 
-.newmessage span {
-    font-size: 13px;
+.chatsposition {
+    top: 28px;
+    left: 25px;
+}
+
+@keyframes badgeAni {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    10% {
+        transform: none;
+    }
 }

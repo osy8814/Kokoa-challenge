@@ -1,0 +1,195 @@
+#shopbody {
+    background: url("https://w0.peakpx.com/wallpaper/484/622/HD-wallpaper-homero-bart-barto-dibujos-animados-fox-homero-simpson-lisa-springfield-the-simpson-yellow.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: repeat-y;
+}
+
+.shop-container {
+    margin-top: 80px;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+
+}
+
+.top-menu {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.top-menu a {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: var(--text-shadow-black);
+}
+
+.top-menu a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.adbox {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.adbox img {
+    width: inherit;
+}
+
+.adbox__controlset {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.adbox__controlset__play {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.adbox__controlset__page {
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.user-shoplist {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    color: black;
+    text-shadow: var(--text-shadow-white);
+}
+
+.user-shoplist__leftbox {
+    display: flex;
+    align-items: center;
+}
+
+.user-shoplist__rightbox {
+    display: flex;
+    align-items: center;
+}
+
+.user-shoplist__rightbox h2 {
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.user-shoplist__rightbox h2:first-child {
+    border-right: 1px solid black;
+}
+
+.user-shoplist__thumnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+.user-shoplist__thumnail img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+
+}
+
+.user-shoplist__text {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.user-shoplist__text strong {
+    font-weight: 900;
+}
+
+.container2 {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 0 20px;
+}
+
+.deal-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: var(--text-shadow-white);
+}
+
+.deal-box-ad__box p,
+.deal-box h2:first-child {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Simpson";
+    text-shadow: var(--text-shadow-white);
+}
+
+.deal-box-ad {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal-box-ad__box-img {
+    width: 220px;
+    height: 130px;
+    background-color: blue;
+    position: relative;
+}
+
+.deal-box-ad__box-img img {
+    width: inherit;
+    height: inherit;
+}
+
+.deal-box-ad__box-img p {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+.deal-box-ad__box>p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.deal-box-ad__box:first-child .deal-box-ad__box__text {
+    color: var(--yellow);
+    text-shadow: 2px 2px 1px blue;
+    font-size: 20px;
+}
+
+.deal-box-ad__box:nth-child(2) .deal-box-ad__box__text {
+    color: #EF0027;
+    text-shadow: 2px 2px 1px black;
+    font-size: 20px;
+}

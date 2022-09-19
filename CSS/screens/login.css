@@ -3,7 +3,7 @@
 .buttom,
 input,
 button,
-a {
+.button-link-box a {
     font-family: "Simpson";
     text-align: center;
 }
